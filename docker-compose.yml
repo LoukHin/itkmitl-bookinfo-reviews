@@ -1,0 +1,7 @@
+services:
+  reviews:
+    build: .
+    container_name: reviews
+    image: ghcr.io/loukhin/itkmitl-bookinfo-reviews:dev
+    ports:
+      - "8082:9080"
